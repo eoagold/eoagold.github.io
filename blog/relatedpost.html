@@ -42,7 +42,7 @@ rsimg = (simg == false) ? "/s1600/" : "/" + simg + "/";
 function postfeeds(r) {
 for (var l = 0; l < r.feed.entry.length; l++) {
 var e = r.feed.entry[l];
-reltitle[relnotitle] = e.title.$t, postcontent = "", "content" in e ? postcontent = e.content.$t : "summary" in e && (postcontent = e.summary.$t), relsummary[relnotitle] = saringtags(postcontent, numchars), postimg = "media$thumbnail" in e ? e.media$thumbnail.url.replace(/.*?:\/\//g, "//").replace(/\/s[0-9]+(\-c)?/, "/w185-h97-p-k-no-nu") : "https://1.bp.blogspot.com/-n9YhCeM6Dqw/XvFfJZKpuhI/AAAAAAAAADs/ENZ20ZprLLQT7VRCeNzjNxjKmZJqXgt5gCK4BGAsYHg/s1600/card-eoa-gold-solo.jpg", relimg[relnotitle] = postimg;
+reltitle[relnotitle] = e.title.$t, postcontent = "", "content" in e ? postcontent = e.content.$t : "summary" in e && (postcontent = e.summary.$t), relsummary[relnotitle] = saringtags(postcontent, numchars), postimg = "media$thumbnail" in e ? e.media$thumbnail.url.replace(/.*?:\/\//g, "//").replace(/\/s[0-9]+(\-c)?/, "/w185-h97-p-k-no-nu") : "https://1.bp.blogspot.com/-HL0jW74Foiw/XvGP6SrU7gI/AAAAAAAAAFc/GmHeBc96si4BanaIgK7xm-itU1qm1m3ygCK4BGAsYHg/s1600/cover-blog-eoa-gold-solo-raya.png", relimg[relnotitle] = postimg;
 for (var t = 0; t < e.link.length; t++)
 if ("alternate" == e.link[t].rel) {
 relurls[relnotitle] = e.link[t].href;
