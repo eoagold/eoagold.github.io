@@ -39,7 +39,7 @@ body {
 
 .link {
     display: block;
-    background-color: rgb(66, 110, 255);
+    background-color: #ffcc00;
     color: #fff;
     font-family: var(--font);
     text-align: center;
@@ -49,13 +49,13 @@ body {
     font-size: 1rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid var(--accentColor) 2px;
+    border:2px solid #ffcc00;
 }
 
 .link:hover {
     background-color: #fff;
-    color: rgb(66, 110, 255);
-    border: solid rgb(66, 110, 255) 2px;
+    color: #ffcc00;
+    border:2px solid #ffcc00;
 }
 
 .footer {
