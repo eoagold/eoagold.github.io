@@ -1,14 +1,14 @@
 {
-    "name": "EOA GOLD SOLO",
+    "name": "EOA GOLD SOLO RAYA",
     "short_name": "EOA GOLD SOLO",
     "icons": [
         {
-            "src": "//eoagold.github.io/docs/fav/android-chrome-192x192.png",
+            "src": "https://eoagoldsolo.com/docs/fav/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "//eoagold.github.io/docs/fav/android-chrome-512x512.png",
+            "src": "https://eoagoldsolo.com/docs/fav/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
