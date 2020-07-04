@@ -40,7 +40,7 @@ body {
 .link {
     display: block;
     background-color: #ffcc00;
-    color: #fff;
+    color: #000000;
     font-family: var(--font);
     text-align: center;
     margin-bottom: 20px;
@@ -53,7 +53,7 @@ body {
 }
 
 .link:hover {
-    background-color: #fff;
+    background-color: #000000;
     color: #ffcc00;
     border:2px solid #ffcc00;
 }
