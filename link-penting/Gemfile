@@ -41,3 +41,7 @@ group :development, :test do
 end
 
 gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"
+
+gem "actionview", ">= 5.2.4.2"
+
+gem "rack", ">= 2.1.4"
