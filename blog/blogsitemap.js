@@ -247,7 +247,7 @@ function displayToc2() {
         firsti = a;
         do {
             document.write("<li>");
-            document.write('<a href="' + postUrl[a] + '">' + postTitle[a] + "</a>");
+            document.write('<a href="' + postUrl[a] + '" title="' + postTitle[a] + '">' + postTitle[a] + "</a>");
             if (postBaru[a] == true) {
                 document.write(' - <span class="new">New!</span>')
             }
