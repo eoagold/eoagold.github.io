@@ -1,17 +1,6 @@
 url: "https://eoagoldsolo.com"
 plugins:
     - jekyll-sitemap
-defaults:
-  -
-    scope:
-      path: "/pinterest-5067a.html"
-    scope:
-      path: "/blog/relatedpost.html"
-    scope:
-      path: "/blog/embed-telegram.html"
-    values:
-      sitemap: false    
-plugins:
     - jekyll-feed
     title: EOA GOLD SOLO RAYA | WA 08567712818
     description: Agent of Gold resmi dari EOA GOLD di Solo Raya. EOA GOLD adalah emas logam mulia yang dicetak kepingan mulai dari 0,1 gram hingga 5 gram.
