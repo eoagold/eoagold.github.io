@@ -3,12 +3,24 @@ defaults:
   -
     scope:
       path: "pinterest-5067a.html"
+    values:
+      sitemap: false
+  -
     scope:
       path: "SECURITY.md"
+    values:
+      sitemap: false
+  -
     scope:
       path: "blog/*.html"
+    values:
+      sitemap: false
+  -
     scope:
       path: "docs/fav/"
+    values:
+      sitemap: false
+  -
     scope:
       path: "docs/img/svg/"
     values:
