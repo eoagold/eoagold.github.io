@@ -3,9 +3,13 @@ defaults:
   -
     scope:
       path: "pinterest-5067a.html"
+    scope:
       path: "SECURITY.md"
+    scope:
       path: "blog/*.html"
+    scope:
       path: "docs/fav/"
+    scope:
       path: "docs/img/svg/"
     values:
       sitemap: false
