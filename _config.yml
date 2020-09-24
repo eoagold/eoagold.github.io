@@ -2,7 +2,7 @@ url: "https://eoagoldsolo.com"
 defaults:
   -
     scope:
-      path: "/pinterest-5067a.html"
+      path: "pinterest-5067a.html"
     values:
       sitemap: false
 plugins:
