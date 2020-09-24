@@ -6,7 +6,7 @@ defaults:
     values:
       sitemap: false
 exclude:
-  - SECURITY.html
+  - SECURITY.md
 plugins:
     - jekyll-sitemap
     - jekyll-feed
