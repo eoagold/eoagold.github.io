@@ -2,7 +2,7 @@ url: "https://eoagoldsolo.com"
 defaults:
   -
     scope:
-      path: "docs/"
+      path: "docs/**/*.md"
     values:
       sitemap: false
 plugins:
