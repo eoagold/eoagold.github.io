@@ -3,6 +3,7 @@ defaults:
   -
     scope:
       path: "pinterest-5067a.html"
+      path: "blog/*.html"
     values:
       sitemap: false
 plugins:
