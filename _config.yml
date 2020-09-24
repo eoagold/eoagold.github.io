@@ -1,8 +1,8 @@
 url: "https://eoagoldsolo.com"
 exclude:
   - blog/
-  - docs/
-  - SECURITY.html
+  - docs/fav/README.md
+  - SECURITY.md
   - pinterest-5067a.html
 plugins:
     - jekyll-sitemap
