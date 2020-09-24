@@ -1,30 +1,14 @@
 url: "https://eoagoldsolo.com"
 defaults:
-  -
-    scope:
+  - scope:
       path: "pinterest-5067a.html"
     values:
       sitemap: false
-  -
-    scope:
-      path: "SECURITY.md"
-    values:
-      sitemap: false
-  -
-    scope:
-      path: "blog/*.html"
-    values:
-      sitemap: false
-  -
-    scope:
-      path: "docs/fav/"
-    values:
-      sitemap: false
-  -
-    scope:
-      path: "docs/img/svg/"
-    values:
-      sitemap: false
+exclude:
+  - blog/
+  - docs/img/svg/
+  - docs/fav/
+  - SECURITY.html
 plugins:
     - jekyll-sitemap
     - jekyll-feed
