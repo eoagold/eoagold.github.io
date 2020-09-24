@@ -5,6 +5,8 @@ defaults:
       path: "docs/**/*.md"
     values:
       sitemap: false
+exclude:
+  - SECURITY.html
 plugins:
     - jekyll-sitemap
     - jekyll-feed
