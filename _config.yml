@@ -1,3 +1,4 @@
 url: "https://eoagoldsolo.com"
 gems:
     - jekyll-sitemap
+    - jekyll-feed
