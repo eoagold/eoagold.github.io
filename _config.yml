@@ -1,9 +1,10 @@
 url: "https://eoagoldsolo.com"
-exclude:
-  - blog/
-  - docs/fav/README.md
-  - SECURITY.md
-  - pinterest-5067a.html
+defaults:
+  -
+    scope:
+      path: "blog/*.html"
+    values:
+      sitemap: false
 plugins:
     - jekyll-sitemap
     - jekyll-feed
