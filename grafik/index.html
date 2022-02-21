@@ -26,11 +26,7 @@
 <script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
 <script>
 Highcharts.getJSON(
-	fetch('https://eoagold.id/grafik/series', {
-  	mode: 'cors',
-  	credentials: 'include'
-	}),
-    // "https://eoagold.id/grafik/series",
+    "https://eoagold.id/grafik/series",
     function (data) {
         Highcharts.stockChart('container', {
             chart: {
