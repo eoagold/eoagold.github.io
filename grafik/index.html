@@ -1,0 +1,76 @@
+<html>
+<head></head>
+ <body>
+  <section id="grafik"> 
+   <div class="row"> 
+    <div class="col-md-9"> 
+     <h2 class="font-gold">Grafik Harga</h2> 
+     <figure class="highcharts-figure"> 
+      <div id="container"></div> 
+     </figure> 
+    </div> 
+    <div class="col-md-3"> 
+     <div style="padding-top:50px"> 
+      <span class="text3" style="font-size:10px"> <h3 style="color:#23427E">Harga Terakhir:</h3> <h3 style="color:#C79626"><b>Rp 986.000,00/gram</b></h3> </span> 
+      <h3 style="color:#23427E">Perubaan</h3> 
+      <h3> <b class="text2" style="padding-top:30px;color:#C79626"> <i class="fa fa-caret-up" style="color:green"></i> Rp 14.500,00</b><br /> </h3> 
+      <span class="text3" style="font-size:15px"> <h3 style="color:#23427E">Perubahan Terakhir:</h3> <h3 style="color:#C79626"><b>18-02-2022 10:54:04</b></h3> </span> 
+     </div> 
+    </div> 
+   </div> 
+  </section>
+<script src="https://eoagold.id/biolife/assets/js/jquery-3.4.1.min.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/data.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/stock/modules/export-data.js"></script>
+<script>
+Highcharts.getJSON(
+    "https://eoagold.id/grafik/series",
+    function (data) {
+        Highcharts.stockChart('container', {
+            chart: {
+                borderColor: "#C79626"
+            },
+            title: {
+                text: 'Harga 1 Gram Emas'
+            },
+            rangeSelector: {
+                buttons: [{
+                    type: 'week',
+                    count: 1,
+                    text: '1w'
+                }, {
+                    type: 'month',
+                    count: 1,
+                    text: '1m'
+                }, {
+                    type: 'month',
+                    count: 3,
+                    text: '3m'
+                }, {
+                    type: 'month',
+                    count: 6,
+                    text: '6m'
+                }],
+                selected: 3
+            },
+navigator: {
+                enabled: true
+            },
+            series: [{
+                name: 'Harga Emas',
+                data: data,
+                type: 'area',
+				threshold: null,
+                color: "#C79626",
+                tooltip: {
+                    valueDecimals: 2
+                }
+            }]
+        });
+    }
+);
+</script>
+</body>
+</html>
